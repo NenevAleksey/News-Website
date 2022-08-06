@@ -1,0 +1,77 @@
+@import '../../index.scss';
+
+.header {
+   border: 1px solid #DBDBDB;
+}
+
+.container {
+   width: 100%;
+   max-width: 1240px;
+   margin: 0 auto;
+   padding: 0 2rem;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 0;
+}
+
+.header-nav {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 40px;
+}
+
+.header-link {
+   font-weight: $fw-regular;
+   font-size: 15px;
+   line-height: 18px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-decoration: none;
+   color: #18A0FB;
+   transition: 0.2s;
+}
+
+.header-link:hover {
+   color: #F99400;
+}
+
+.header-button {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 24px;
+}
+
+.icon {
+   color: #18A0FB;
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
+
+.login, .register {
+   text-decoration: none;
+   width: 130px;
+   height: 40px;
+   background: #FFFFFF;
+   color: #18A0FB;
+   border: 1px solid #18A0FB;
+   border-radius: 6px;
+   transition: 0.2s;
+   cursor: pointer;
+}
+
+.login:hover, .register:hover {
+   background: #18A0FB;
+   color: #FFFFFF;
+}
+
+
